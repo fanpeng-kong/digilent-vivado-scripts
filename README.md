@@ -98,7 +98,7 @@ This subcommand calls into digilent_vivado_checkout.tcl in order to create a Viv
 ##### TCL:
 > `set argv "-r D:/Github/Zybo-Z7-10-HDMI"`
 
-> `source digilent-vivado-checkout.tcl`
+> `source digilent_vivado_checkout.tcl`
 
 -----------
 ### Checkin
@@ -119,7 +119,7 @@ This subcommand calls into digilent_vivado_checkin.tcl in order to collect sourc
 ##### TCL:
 > `set argv "-r D:/Github/Zybo-Z7-10-HDMI"`
 
-> `source digilent-vivado-checkin.tcl`
+> `source digilent_vivado_checkin.tcl`
 
 -----------
 ### Release
@@ -141,7 +141,7 @@ This subcommand collects all required files and produces a release ZIP archive. 
 ##### TCL:
 > `set argv "-r D:/Github/Zybo-Z7-10-HDMI"`
 
-> `source digilent-vivado-release.tcl`
+> `source digilent_vivado_release.tcl`
 
 ------------------------------------
 ## Other Files and Overall Structure
